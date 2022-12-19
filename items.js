@@ -15,7 +15,7 @@ const images = [
 
 let imageIndex = 0; 
 
-for(let i = 0; i < 80; i++) {
+for(let i = 1; i <= 80; i++) {
     let item = {
         id: i,
         title: `post ${i}`,
